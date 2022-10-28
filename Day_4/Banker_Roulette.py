@@ -13,4 +13,7 @@ names = names_string.split(", ")
 x = len(names)
 random_number = random.randint(0, x-1)
 person = names[random_number]
+
+# person = random.choice(names)
+
 print(person +" is going to buy the meal today!")
